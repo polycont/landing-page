@@ -76,3 +76,40 @@ a:link {
     height: auto;
     padding: 100px 0px 100px 0px;
 }
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: center;
+}
+
+.gallery-header {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.gallery-images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery-images img {
+    border: 6px solid #3882F6;
+    border-radius: 20px;
+    height: 200px;
+    width: auto;
+}
+
+.gallery-text p {
+    max-width: 200px;
+}
+
