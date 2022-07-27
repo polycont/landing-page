@@ -4,13 +4,22 @@ body {
     margin: 0px;
 }
 
-.header {
+.header,
+.intro,
+.gallery,
+.quote-speaker,
+.quote-text {
     display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+.header {
     align-items: center;
     justify-content: space-between;
     background-color: #1F2937;
-    padding-left: 100px;
-    padding-right: 100px;
+
 }
 
 .logo,
@@ -31,12 +40,9 @@ a:link {
 }
 
 .intro {
-    display: flex;
     justify-content: space-between; 
     align-items: center;
     background-color: #1F2937;
-    padding-left: 100px;
-    padding-right: 100px;
 }
 
 .intro-text {
@@ -78,10 +84,7 @@ a:link {
 }
 
 .gallery {
-    display: flex;
     flex-direction: column;
-    padding-left: 100px;
-    padding-right: 100px;
     justify-content: center;
 }
 
@@ -113,3 +116,23 @@ a:link {
     max-width: 200px;
 }
 
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+
+}
+
+.quote-text,
+.quote-speaker {
+    align-items: center;
+}
+
+.quote-text {
+    justify-content: center;
+    max-width: 
+}
+
+.quote-speaker {
+    justify-content: flex-end;
+}
