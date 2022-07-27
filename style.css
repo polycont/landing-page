@@ -2,16 +2,16 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0px;
+    font-family: 'Roboto';
 }
 
 .header,
 .intro,
 .gallery,
-.quote-speaker,
 .quote-text {
     display: flex;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 300px;
+    padding-right: 300px;
 }
 
 
@@ -86,6 +86,7 @@ a:link {
 .gallery {
     flex-direction: column;
     justify-content: center;
+    padding-bottom: 75px;
 }
 
 .gallery-header {
@@ -95,18 +96,14 @@ a:link {
     padding-bottom: 20px;
 }
 
-.gallery-images {
-    display: flex;
-    justify-content: space-between;
-}
-
+.gallery-images,
 .gallery-text {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .gallery-images img {
-    border: 6px solid #3882F6;
+    border: 5px solid #3882F6;
     border-radius: 20px;
     height: 200px;
     width: auto;
@@ -130,9 +127,20 @@ a:link {
 
 .quote-text {
     justify-content: center;
-    max-width: 
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    padding-top: 50px;
+    max-height: 100px;
 }
 
 .quote-speaker {
+    display: flex;
     justify-content: flex-end;
+    padding-right: 600px;
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 50px;
 }
+
