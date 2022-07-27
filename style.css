@@ -8,7 +8,8 @@ body {
 .header,
 .intro,
 .gallery,
-.quote-text {
+.quote-text,
+.cta-section{
     display: flex;
     padding-left: 300px;
     padding-right: 300px;
@@ -120,27 +121,49 @@ a:link {
 
 }
 
-.quote-text,
-.quote-speaker {
-    align-items: center;
-}
-
 .quote-text {
     justify-content: center;
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
     color: #1F2937;
-    padding-top: 50px;
-    max-height: 100px;
+    max-height: 50%;
+}
+
+.quote-text h5 {
+    margin-top: 50px;
+    margin-bottom: -20px;
 }
 
 .quote-speaker {
     display: flex;
     justify-content: flex-end;
-    padding-right: 600px;
+    padding-right: 400px;
     font-weight: bold;
     font-size: 18px;
     padding-bottom: 50px;
 }
 
+.cta-section {
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cta-box {
+    display: flex;
+    background-color: #3882F6;
+    padding: 20px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    color: #E5E7EB;
+
+}
